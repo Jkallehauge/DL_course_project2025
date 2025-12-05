@@ -68,8 +68,11 @@ Where $\sigma$ represents the running EMA of the respective loss.
 
 **Key Finding:** Initial experiments showed a persistent failure to classify **Gliomas** (Recall ≈ 0.33). UMAP analysis revealed a distributional shift between validation and test samples for Gliomas. After removing 1,113 duplicate images found in the combined datasets, performance stabilized significantly.
 
-*Figure: UMAP projection showing the shift in Glioma distribution (blue x vs blue o) before cleaning.*
-
+<p align="center">
+  <img src="UMAP_MTL_Hierachi.png" width="800" alt="UMAP Latent Space Analysis showing Glioma distribution shift">
+  <br>
+  <em>Figure: UMAP projection showing the shift in Glioma distribution (blue x vs blue o) before cleaning.</em>
+</p>
 -----
 
 ### 🛠️ Installation & Usage
